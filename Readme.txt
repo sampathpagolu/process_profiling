@@ -1,5 +1,4 @@
 *******************************************************************************
-#           Advanced Operating Systems Design, CS5352 - Project 1             #
 #                   Author: Lakshmi Sampath Somanath Pagolu                   #
 #                         Email ID: lpagolu@ttu.edu                           #
 ********************************************************************************
@@ -12,8 +11,8 @@ command line arguments
 *RUN THIS IN COMMAND PROMPT*
  ______________________________________________________________________________
 |                                                                              |
-| 1. p1_pagolu h - "To display Readme file"                                    |
-| 2. p1_pagolu positive_number algorithm_option - "To run the algorithms"      |
+| 1. pagolu h - "To display Readme file"                                    |
+| 2. pagolu positive_number algorithm_option - "To run the algorithms"      |
 |______________________________________________________________________________|
 option 1 [positive Number]:
 The algorithms find the number of prime numbers in the range of 1 to the user's
@@ -26,13 +25,13 @@ option 2 [algorithm_option]:
   3. b - both at the same time
 
 examples:
-  1. p1_pagolu 1000 n
+  1. pagolu 1000 n
      Calculates number of prime numbers in the range(1,1000) using naive 
      implementation and saves the graph in pictures folder
-  2. p1_pagolu 1000 b
+  2. pagolu 1000 b
      Calculates number of prime numbers using both algorithmsin the range(1,1000) by
      taking advantage of multiprocessing and saves both graphs in pictures folder
-  3. p1_pagolu h
+  3. pagolu h
      Displays the Readme file on screen
 --------------------------------------------------------------------------------
 Required python version: 3.8.1

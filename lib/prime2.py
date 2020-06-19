@@ -62,7 +62,8 @@ def process_details(pid, py):
         f" Process ID: {pid}, RSS: {mem['rss']}, Virtual Memory: {mem['vms']}, Page Faults:{mem['num_page_faults']} "
         f"CPU %: {cpu_percent['user']} Memory usage: {round(used_vms_gib, 4)} GiB out of {round(swap_memory['total'] / (2 ** 30), 4)} GiB, file size {file_size[0]} Bytes"}
     print(f"SieveOfEratosthenes: {result}")
-    return plotting(values, values1, cpu_values, file_size)
+    # uncomment the below line to save the plot
+    # return plotting(values, values1, cpu_values, file_size)
 
 
 def plotting(values, values1, cpu_percent, file_size):
